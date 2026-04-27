@@ -123,7 +123,7 @@ function animate() {
         }
     }
 
-    // Update and draw sparks
+
     for (let i = sparks.length - 1; i >= 0; i--) {
         const dead = sparks[i].update();
         if (dead) {
